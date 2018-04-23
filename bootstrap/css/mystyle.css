@@ -1,0 +1,106 @@
+/** {
+    border: 1px solid gray;
+}*/
+
+/* barra de navegação */
+
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.modal-body {
+    background-color: whitesmoke;
+}
+
+
+/*barra de navegação*/
+
+.navbar-inverse {
+    background: #303F9F;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background: #1A237E;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background: #1A237E;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a,
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+    background-color: #303F9F;
+    color: #eeeeee;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+    color: #000000;
+}
+
+/*barra de navegação*/
+
+.row-header {
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+
+.row-footer {
+    background-color: whitesmoke;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.space {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 10px 20px;
+    margin-top: 60px;
+}
+
+
+
+address {
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+h3 {
+    color: slategray;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#details > h2 {
+    color: red;
+    font-size: 14px;
+    line-height: 48px;
+    text-align: center;
+    border: 1px dotted red;
+    padding: 20px 30px;
+    margin: 30px 20px;
+}
